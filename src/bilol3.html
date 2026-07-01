@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+
+<body>
+
+
+    <header class="w-full border-b border-gray-200 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex items-center justify-between h-24">
+
+                <a href="/" class="flex items-center">
+                    <img src="./imagebilol/image.png" alt="" class="h-14 w-auto">
+                </a>
+
+                <nav class="hidden xl:flex items-center gap-8 text-[14px] font-medium text-gray-700">
+
+                    <div class="relative group">
+                        <a href="#" class="hover:text-[#c58b16] transition">
+                            О компании
+                        </a>
+                    </div>
+
+                    <div class="relative group">
+                        <a href="#" class="hover:text-[#c58b16] transition">
+                            Объекты
+                        </a>
+                    </div>
+
+                    <div class="relative group">
+                        <a href="#" class="hover:text-[#c58b16] transition">
+                            Комплексные решения
+                        </a>
+                    </div>
+
+                    <div class="relative group">
+                        <a href="#" class="hover:text-[#c58b16] transition">
+                            Наше оборудование
+                        </a>
+                    </div>
+
+                    <div class="relative group">
+                        <a href="#" class="hover:text-[#c58b16] transition">
+                            Оснащение лабораторий
+                        </a>
+                    </div>
+
+                    <div class="relative group">
+                        <a href="#" class="hover:text-[#c58b16] transition">
+                            Услуги компании
+                        </a>
+                    </div>
+
+                    <div class="relative group">
+                        <a href="#" class="hover:text-[#c58b16] transition">
+                            Пресс-центр
+                        </a>
+                    </div>
+
+                    <a href="#" class="hover:text-[#c58b16] transition">
+                        Видео
+                    </a>
+
+                    <a href="#" class="hover:text-[#c58b16] transition">
+                        Контакты
+                    </a>
+
+                </nav>
+
+                <div class="hidden lg:flex items-center gap-8">
+
+                    <button class="text-gray-700 hover:text-[#c58b16]">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <circle cx="11" cy="11" r="7" />
+                            <path d="M20 20L17 17" />
+                        </svg>
+                    </button>
+
+                    <button class="flex items-center gap-2 border px-3 py-2 rounded text-sm">
+                        RU
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M5 7l5 6 5-6" />
+                        </svg>
+                    </button>
+
+                    <div class="text-right">
+                        <p class="text-xs text-gray-500">
+                            Наши номера
+                        </p>
+                        <a href="#" class="font-semibold text-[#c58b16] text-sm">
+                            +38 (067) 822-85-58
+                        </a>
+                    </div>
+
+                </div>
+
+                <button class="xl:hidden flex flex-col gap-1.5">
+                    <span class="w-7 h-0.5 bg-black"></span>
+                    <span class="w-7 h-0.5 bg-black"></span>
+                    <span class="w-7 h-0.5 bg-black"></span>
+                </button>
+
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+
+    <main class="max-w-7xl mx-auto px-4 py-8">
+
+        <nav class="text-xs text-gray-500 mb-2 text-center">
+            Главная / <span class="font-semibold text-gray-700">Объекты</span>
+        </nav>
+
+        <h1 class="text-3xl font-black text-center tracking-wide uppercase mb-8">
+            Объекты
+        </h1>
+
+        <div class="bg-white p-6 shadow-sm rounded-sm border border-gray-100 mb-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+                <div class="flex flex-col sm:flex-row sm:items-center gap-4">
+                    <div class="text-sm font-bold uppercase tracking-wider w-32 shrink-0">
+                        Сортировка объектов
+                    </div>
+                    <div class="grid grid-cols-2 gap-3 w-full">
+                        <div class="relative">
+                            <select
+                                class="w-full bg-gray-100 text-xs font-semibold py-3 px-4 pr-8 rounded-sm appearance-none border border-transparent focus:outline-none focus:border-gray-300">
+                                <option>Страна</option>
+                            </select>
+                            <div
+                                class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-3 text-gray-500">
+                                <svg class="fill-current h-3 w-3" viewBox="0 0 20 20">
+                                    <path
+                                        d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="relative">
+                            <select
+                                class="w-full bg-gray-100 text-xs font-semibold py-3 px-4 pr-8 rounded-sm appearance-none border border-transparent focus:outline-none focus:border-gray-300">
+                                <option>Область</option>
+                            </select>
+                            <div
+                                class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-3 text-gray-500">
+                                <svg class="fill-current h-3 w-3" viewBox="0 0 20 20">
+                                    <path
+                                        d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex flex-col sm:flex-row sm:items-center gap-4 md:border-l md:pl-8 border-gray-200">
+                    <div class="text-sm font-bold uppercase tracking-wider w-32 shrink-0">
+                        Дата монтажа
+                    </div>
+                    <div class="grid grid-cols-2 gap-3 w-full">
+                        <div class="relative">
+                            <select
+                                class="w-full bg-gray-100 text-xs font-semibold py-3 px-4 pr-8 rounded-sm appearance-none border border-transparent focus:outline-none focus:border-gray-300">
+                                <option>Год</option>
+                            </select>
+                            <div
+                                class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-3 text-gray-500">
+                                <svg class="fill-current h-3 w-3" viewBox="0 0 20 20">
+                                    <path
+                                        d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="relative">
+                            <select
+                                class="w-full bg-gray-100 text-xs font-semibold py-3 px-4 pr-8 rounded-sm appearance-none border border-transparent focus:outline-none focus:border-gray-300">
+                                <option>Месяц</option>
+                            </select>
+                            <div
+                                class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-3 text-gray-500">
+                                <svg class="fill-current h-3 w-3" viewBox="0 0 20 20">
+                                    <path
+                                        d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="flex flex-wrap items-center gap-3 mb-8 text-xs font-semibold">
+            <div class="bg-amber-500 text-white px-4 py-2 rounded-sm flex items-center gap-3 shadow-sm">
+                <span>Украина</span>
+                <button class="hover:opacity-80 text-sm font-bold leading-none">&times;</button>
+            </div>
+            <div class="bg-amber-500 text-white px-4 py-2 rounded-sm flex items-center gap-3 shadow-sm">
+                <span>Житомирская</span>
+                <button class="hover:opacity-80 text-sm font-bold leading-none">&times;</button>
+            </div>
+            <button class="text-gray-400 hover:text-gray-600 transition-colors ml-2 font-normal">
+                Удалить всё
+            </button>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+            <div class="relative group  rounded-sm bg-gray-200 aspect-[4/3] w-full">
+                <img src="./imagebilol/image copy 6.png" alt="" class="absolute inset-0 w-full h-full object-cover">
+                <div
+                    class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex items-end p-6">
+                    <p class="text-white text-center w-full font-bold text-sm sm:text-base leading-snug px-4">
+                        Зерновой барабанный сепаратор "ЛУЧ" ЗСО
+                    </p>
+                </div>
+            </div>
+
+            <div class="relative group  rounded-sm bg-gray-200 aspect-[4/3] w-full">
+                <img src="./imagebilol/image copy 6.png" alt="" class="absolute inset-0 w-full h-full object-cover">
+                <div
+                    class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex items-end p-6">
+                    <p class="text-white text-center w-full font-bold text-sm sm:text-base leading-snug px-4">
+                        Зерновой барабанный сепаратор "ЛУЧ" ЗСО
+                    </p>
+                </div>
+            </div>
+
+            <div class="relative group  rounded-sm bg-gray-200 aspect-[4/3] w-full">
+                <img src="./imagebilol/image copy 6.png" alt="" class="absolute inset-0 w-full h-full object-cover">
+                <div
+                    class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex items-end p-6">
+                    <p class="text-white text-center w-full font-bold text-sm sm:text-base leading-snug px-4">
+                        Зерновой барабанный сепаратор "ЛУЧ" ЗСО
+                    </p>
+                </div>
+            </div>
+
+            <div class="relative group  rounded-sm bg-gray-200 aspect-[4/3] w-full">
+                <img src="./imagebilol/image copy 6.png" alt="" class="absolute inset-0 w-full h-full object-cover">
+                <div
+                    class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex items-end p-6">
+                    <p class="text-white text-center w-full font-bold text-sm sm:text-base leading-snug px-4">
+                        Зерновой барабанный сепаратор "ЛУЧ" ЗСО
+                    </p>
+                </div>
+            </div>
+
+            <div class="relative group  rounded-sm bg-gray-200 aspect-[4/3] w-full">
+                <img src="./imagebilol/image copy 6.png" alt="" class="absolute inset-0 w-full h-full object-cover">
+                <div
+                    class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex items-end p-6">
+                    <p class="text-white text-center w-full font-bold text-sm sm:text-base leading-snug px-4">
+                        Зерновой барабанный сепаратор "ЛУЧ" ЗСО
+                    </p>
+                </div>
+            </div>
+
+            <div class="relative group  rounded-sm bg-gray-200 aspect-[4/3] w-full">
+                <img src="./imagebilol/image copy 6.png" alt="" class="absolute inset-0 w-full h-full object-cover">
+                <div
+                    class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex items-end p-6">
+                    <p class="text-white text-center w-full font-bold text-sm sm:text-base leading-snug px-4">
+                        Зерновой барабанный сепаратор "ЛУЧ" ЗСО
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+
+
+    <footer class="bg-white border-t border-gray-200">
+        <div class="max-w-7xl mx-auto px-6 py-16">
+
+            <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-14">
+
+                <div>
+
+                    <img src="./imagebilol/image.png" alt="" class="h-16 w-auto mb-8">
+
+                    <p class="text-sm text-gray-400">
+                        © 2021 ООО «ОЛИС».
+                    </p>
+
+                    <p class="text-sm text-gray-400 mt-2">
+                        Все права защищены.
+                    </p>
+
+                    <a href="#" class="inline-block mt-8 text-[#d89a14] hover:underline">
+                        Карта сайта
+                    </a>
+
+                </div>
+
+                <div>
+
+                    <h3 class="font-semibold text-lg mb-6">
+                        Подписаться на рассылку
+                    </h3>
+
+                    <form class="flex">
+
+                        <input type="email" placeholder="E-mail"
+                            class="flex-1 border border-gray-300 px-4 h-12 outline-none focus:border-[#d89a14]">
+
+                        <button class="w-14 h-12 bg-[#d89a14] flex items-center justify-center text-white text-xl">
+                            →
+                        </button>
+
+                    </form>
+
+                </div>
+
+                <div>
+
+                    <h3 class="font-semibold text-lg mb-6">
+                        Наша компания
+                    </h3>
+
+                    <ul class="space-y-4 text-gray-600">
+
+                        <li>
+                            <a href="#" class="hover:text-[#d89a14]">
+                                Как мы работаем
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="hover:text-[#d89a14]">
+                                Отзывы о компании
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="hover:text-[#d89a14]">
+                                Новости компании
+                            </a>
+                        </li>
+
+                    </ul>
+
+                    <h3 class="font-semibold text-lg mt-10 mb-6">
+                        Пресс-центр
+                    </h3>
+
+                    <ul class="space-y-4 text-gray-600">
+
+                        <li>
+                            <a href="#" class="hover:text-[#d89a14]">
+                                Новости
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="hover:text-[#d89a14]">
+                                Статьи
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="hover:text-[#d89a14]">
+                                Выставки
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <div>
+
+                    <h3 class="font-semibold text-lg mb-6">
+                        Контакты
+                    </h3>
+
+                    <div class="space-y-5">
+
+                        <div>
+
+                            <p class="text-gray-400 text-sm">
+                                Телефон
+                            </p>
+
+                            <a href="#" class="text-[#d89a14] font-medium">
+                                +38 (067) 822-85-58
+                            </a>
+
+                        </div>
+
+                        <div>
+
+                            <p class="text-gray-400 text-sm">
+                                Звонок из СНГ
+                            </p>
+
+                            <a href="#" class="text-[#d89a14] font-medium">
+                                +7 (831) 288-93-74
+                            </a>
+
+                        </div>
+
+                        <div>
+
+                            <p class="text-gray-400 text-sm">
+                                E-mail
+                            </p>
+                            <a href="#" class="text-[#d89a14] font-medium block">
+                                olis@ukr.net
+                            </a>
+
+                            <a href="#" class="text-[#d89a14] font-medium block mt-1">
+                                info@olis.com.ua
+                            </a>
+
+                        </div>
+
+                        <div>
+
+                            <p class="text-gray-400 text-sm">
+                                Время работы
+                            </p>
+
+                            <p class="text-[#d89a14] font-medium">
+                                8:00 – 17:00
+                            </p>
+
+                        </div>
+
+                        <div class="flex gap-3 pt-2">
+
+                            <a href="#"
+                                class="w-10 h-10 rounded-full bg-[#d89a14] text-white flex items-center justify-center">
+                                in
+                            </a>
+
+                            <a href="#"
+                                class="w-10 h-10 rounded-full bg-[#d89a14] text-white flex items-center justify-center">
+
+                            </a>
+
+                            <a href="#"
+                                class="w-10 h-10 rounded-full bg-[#d89a14] text-white flex items-center justify-center">
+                                f
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+
+
+
+
+</body>
+
+</html>
